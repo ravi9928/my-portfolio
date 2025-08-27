@@ -6,7 +6,7 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-	{ name: 'Node.js', level: 95 },
+	{ name: 'Node.js', level: 100 },
 	{ name: 'PHP / Laravel / CakePHP', level: 100 },
 	{ name: 'Angular', level: 99 },
 	{ name: 'JavaScript / TypeScript', level: 99 },
