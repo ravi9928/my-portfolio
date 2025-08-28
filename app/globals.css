@@ -33,3 +33,14 @@ body {
 .animate-expand {
 	animation: expand 1s ease-out forwards;
 }
+
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 45s linear infinite;
+}
