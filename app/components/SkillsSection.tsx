@@ -12,6 +12,7 @@ const skills: Skill[] = [
 	{ name: 'JavaScript / TypeScript', level: 99 },
 	{ name: 'Database Management', level: 99 },
 	{ name: 'Server & Deployment', level: 99 },
+	{ name: 'Firebase/Firestore', level: 99 },
 ];
 
 const SkillsSection = () => {

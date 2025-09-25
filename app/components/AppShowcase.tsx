@@ -18,7 +18,7 @@ const apps: App[] = [
     name: "MySIPonline",
     description:
       "A fintech investment and mutual fund platform offering seamless portfolio management, portfolio investment, and real-time transaction tracking.",
-    technologies: ["PHP", "Laravel", "Node.js", "Angular", "MySQL"],
+    technologies: ["PHP", "Laravel", "NextJs", "Node.js", "Angular", "MySQL"],
     platforms: ["Web", "Admin/LMS Dashboard", "Client Dashboard"],
     users: "50K+ Active Investors",
     rating: "Trusted by Clients",
@@ -28,8 +28,8 @@ const apps: App[] = [
     id: 2,
     name: "Gradding.com",
     description:
-      "An education and study abroad consultancy platform that streamlines student applications, university search, and counseling services with integrated CRM support.",
-    technologies: ["PHP", "CakePHP", "Laravel", "Next.js", "Nest.js"],
+      "An education and study abroad consultancy platform that streamlines student applications and counseling services with integrated CRM support.",
+    technologies: ["PHP", "CakePHP", "Laravel", "Next.js", "Nest.js", "Payment Gateways"],
     platforms: ["Web"],
     users: "10K+ Students & Counselors",
     rating: "Trusted by Clients",
