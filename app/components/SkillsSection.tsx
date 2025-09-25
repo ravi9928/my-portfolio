@@ -6,7 +6,7 @@ interface Skill {
 }
 
 const skills: Skill[] = [
-	{ name: 'Node.js', level: 100 },
+	{ name: 'Node.js / Next.js', level: 100 },
 	{ name: 'PHP / Laravel / CakePHP', level: 100 },
 	{ name: 'Angular', level: 99 },
 	{ name: 'JavaScript / TypeScript', level: 99 },
@@ -40,7 +40,7 @@ const SkillsSection = () => {
 										<span className="font-medium">{skill.name}</span>
 										{/* Skill-specific badges */}
 										<div className="flex flex-wrap sm:flex-nowrap gap-1">
-											{skill.name === 'Node.js' && (
+											{skill.name === 'Node.js / Next.js' && (
 												<span className="px-2 py-0.5 text-xs rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20">API Development</span>	
 											)}
 											{skill.name === 'PHP / Laravel / CakePHP' && (
