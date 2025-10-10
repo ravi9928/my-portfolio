@@ -6,12 +6,14 @@ import AppShowcase from './components/AppShowcase';
 import DevelopmentProcess from './components/DevelopmentProcess';
 import ContactSection from './components/ContactSection';
 import TechIcons from './components/TechIcons';
+import EducationSection from './components/EducationSection';
 
 export default function MobileDevPortfolio() {
 	return (
 		<main className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white overflow-x-hidden">
 			<HeroSection />
 			<TechIcons />
+			<EducationSection />
 			<SkillsSection />
 			<AppShowcase />
 			<DevelopmentProcess />

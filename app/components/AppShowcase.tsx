@@ -42,7 +42,7 @@ const AppShowcase = () => {
     <section className="py-6 md:py-8 relative">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl sm:text-3xl font-bold mb-8 sm:mb-12 text-center">
-          Projects That Define Me
+          Career Highlights & Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-6xl mx-auto">
           {apps.map((app) => (
@@ -53,12 +53,12 @@ const AppShowcase = () => {
               <div className="bg-gradient-to-b from-gray-900 to-gray-800 rounded-xl sm:rounded-2xl overflow-hidden p-4 sm:p-6 relative">
                 <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6">
                   {/* App Icon */}
-                  <div className="w-16 sm:w-20 h-16 sm:h-20 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-500 p-1 flex-shrink-0">
+                  <div className="w-16 sm:w-20 h-16 sm:h-20 rounded-2xl bg-gradient-to-br from-blue-500 to-purple-500 p-[3px] flex-shrink-0">
                     <div className="w-full h-full rounded-xl bg-gray-900 flex items-center justify-center overflow-hidden relative">
                       {app.id === 1 ? (
                        // eslint-disable-next-line @next/next/no-img-element
                        <img
-                        src="https://images.dwncdn.net/images/t_app-icon-m/p/3629ca69-b5b2-4ec8-805d-cfe61492efca/1802379257/2057_4-78475242-imgingest-3018642817924671850.jpg"
+                        src="/m_logo.png"
                         alt="App Preview"
                         className="relative rounded-xl shadow-lg"
                       />
@@ -66,7 +66,7 @@ const AppShowcase = () => {
 						
                          // eslint-disable-next-line @next/next/no-img-element
                          <img
-                        src="https://graddingteams.zendesk.com/embeddable/avatars/24960340110481"
+                        src="/g_logo.png"
                         alt="App Preview"
                         className="relative rounded-xl shadow-lg"
                       />
@@ -83,13 +83,13 @@ const AppShowcase = () => {
                   <div className="flex-grow w-full sm:w-auto">
                     <div className="flex flex-col sm:flex-row items-center sm:items-start gap-2 mb-2">
                      <a
-  href={app.link} // or "#" if no link yet
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-xl font-bold text-center sm:text-left break-words transition-colors group-hover:text-blue-400"
->
-  {app.name}
-</a>
+                          href={app.link} // or "#" if no link yet
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xl font-bold text-center sm:text-left break-words transition-colors group-hover:text-blue-400"
+                        >
+                          {app.name}
+                        </a>
                       <span className="px-2 py-0.5 rounded-full text-xs bg-blue-500/10 text-blue-400 border border-blue-500/20 whitespace-nowrap">
                         {app.id === 1 ? "Featured" : "New"}
                       </span>
