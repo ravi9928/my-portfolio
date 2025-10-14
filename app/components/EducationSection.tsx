@@ -42,7 +42,7 @@ const educationData: Education[] = [
     description:
       "Completed 12th in Science stream with emphasis on Physics, Chemistry, and Maths.",
     highlights: ["PCM Stream", "Mathematics Excellence", "Science Projects"],
-    grade: "Result:81%",
+    grade: "Result: 81%",
   },
   {
     id: 3,
@@ -55,7 +55,7 @@ const educationData: Education[] = [
     description:
       "Completed 10th with distinction, building strong logic and analytical foundation.",
     highlights: ["Distinction", "Olympiad Participation", "Academic Merit"],
-    grade: "Result:89%",
+    grade: "Result: 89%",
   },
 ];
 
